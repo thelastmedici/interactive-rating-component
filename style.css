@@ -11,14 +11,24 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: "Overpass", sans-serif;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+
 }
 
 p{
     color: hsl(217, 12%, 63%);
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    line-height: 1.5;
 }
 
 
@@ -35,26 +45,46 @@ p{
 
 
 }
+.rating{
+    padding-top: 20px;
+}
 
 .star-icon{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: hsl(216, 16%, 49%);
+    background-color:hsl(214, 25%, 24%);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 35px;
+}
+.score-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-bottom: 30px;
+
+}
+button.btn{
+    background-color:hsl(214, 25%, 16%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color:hsl(217, 12%, 63%);
+    border-style: none;
+    font-weight: 700;
+    font-size: 16px;
 }
 
-.submit{
+.submit {
     background-color: hsl(25, 97%, 53%);
-    width: 300px;
-    height: 40px;
+    width: 325px;
+    height: 42px;
     text-align: center;
     border-radius: 20px;
     border-style: none;
-    margin-top: 100px;
-    margin-left: 45px;
+    margin-left: 38px;
     text-transform: uppercase;
     color: hsl(0, 0%, 100%);
     font-size: 16px;
