@@ -90,3 +90,13 @@ button.btn{
     font-size: 16px;
     font-weight: 700;
 }
+
+.btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
