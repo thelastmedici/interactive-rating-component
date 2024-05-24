@@ -37,10 +37,9 @@ p{
     margin: 0 auto;
     height: 400px;
     width: 400px;
-    /* background-color: hsl(215, 25%, 21%); */
+    
     border-radius: 20px;
     text-align: start;
-    /* background-color: hsl(212, 17%, 15%); */
     background-image: linear-gradient(hsl(214, 25%, 16%), hsl(216, 12%, 10%));
 
 
@@ -127,4 +126,8 @@ button.btn{
     /* padding-left: 40px;
     padding-right: 40px; */
     padding: 10px 40px 10px 40px;
+}
+.clicked{
+    background-color: hsl(217, 12%, 63%) !important;
+    color: white !important;
 }

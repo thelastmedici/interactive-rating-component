@@ -1,8 +1,10 @@
-const rating = document.querySelectorAll('.btn')
+const rateButtons = document.querySelectorAll(".btn")
 
-rating.forEach(function(rating, i){
-    rating.addEventListener('click', function(){
-        
-            console.log(rating, i)
-    })
-});
+rateButtons.forEach(function(button, i){
+    button.addEventListener("click", function(){
+        rateButtons.forEach(function (btn) {
+            btn.classList.remove('clicked');
+        })
+        button.classList.add('clicked');
+    });
+})
