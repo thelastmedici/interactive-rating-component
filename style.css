@@ -131,3 +131,6 @@ button.btn{
     background-color: hsl(217, 12%, 63%) !important;
     color: white !important;
 }
+.active{
+    display: none !important;
+}
